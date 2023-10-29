@@ -1,0 +1,89 @@
+html {
+	margin: 0;
+	padding: 0;
+	  
+            background-image:url(https://i.pinimg.com/originals/05/43/a3/0543a31f435643f44373112bfe1c38a9.jpg);
+          
+             padding: 36px;
+        
+}
+body {
+	width: 70%;
+	margin: 0 auto;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 1em 50px;
+	background: white;
+	
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2em;
+	font-weight: normal;
+	font-style: italic;
+	margin: 0 0 .4em;
+	color: white;
+	background-color: #4c0b96;
+	padding: 5px 10px;
+    
+   
+}
+
+
+p {
+	line-height: 1.6;
+	text-align: justify;
+	width: 60%;
+	margin: 0;
+	margin-bottom: 1em;
+    
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: white;
+}
+.wrapper{
+    width: 90%
+        margin: 0 auto;
+    font-size: 2em;
+}
+header{
+    width: 100%;
+    height 100px;
+    background: #353455;
+    postion: fixed;
+}
+
+.logo{
+    width: 30%;
+        float: left;
+   
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 36px 35px;
+    margin: 0 1px;
+    font-weight: 500;
+    font-size: 20px;
+}
+nav a:hover{
+    background: #fff;
+    color: white;
+    
+}
+.welcome-text {
+    color: white;
+    padding: 36px 10px;
+    letter-spacing: 2px;
+    margin: 11 100px; /* Adjusted margin to add spacing */
+}
+/* Add this CSS rule to your <style> section */
+img {
+  position: absolute;
+  top: 20%; /* Move the picture down by 10% (45% + 10%) */
+  right: 15%;
+}
+

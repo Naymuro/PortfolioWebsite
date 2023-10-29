@@ -1,0 +1,163 @@
+html {
+	margin: 0;
+	padding: 0;
+	  
+            background-image:url(https://i.pinimg.com/originals/05/43/a3/0543a31f435643f44373112bfe1c38a9.jpg);
+          
+             padding: 36px;
+        
+}
+body {
+	width: 70%;
+	margin: 0 auto;
+	font: 100% Arial, Helvetica, sans-serif;
+	padding: 1em 50px;
+	background: #f5f2f0;
+	
+}
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2em;
+	font-weight: normal;
+	font-style: italic;
+	margin: 0 0 .4em;
+	color: white;
+	background-color: #ad3b49;
+	padding: 5px 10px;
+    
+   
+}
+
+
+p {
+	line-height: 1.6;
+	text-align: justify;
+	width: 60%;
+	margin: 0;
+	margin-bottom: 1em;
+   
+    
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	color: white;
+}
+.wrapper{
+    width: 90%
+        margin: 0 auto;
+    font-size: 2em;
+}
+header{
+    width: 100%;
+    height 100px;
+    background: #353455;
+    postion: fixed;
+}
+
+.logo{
+    width: 30%;
+        float: left;
+   
+}
+nav a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 36px 35px;
+    margin: 0 1px;
+    font-weight: 500;
+    font-size: 20px;
+}
+nav a:hover{
+    background: white;
+    color: black;
+    
+}
+.welcome-text {
+    color: white;
+    padding: 36px 10px;
+    letter-spacing: 2px;
+    margin: 11 100px; /* Adjusted margin to add spacing */
+}
+
+.slider-frame{
+      overflow: hidden;
+      height: 800px;
+      width: 800px;
+      margin-left: 360px;
+      margin-top: 20px;
+    margin-bottom: 20px;
+  }
+ 
+  /*---------- SLIDE ANIMATION --------------*/
+ 
+ 
+  @keyframes slide_animation{
+      0% {left:0px;}
+      10% {left:0px;}
+      20% {left:1200px;}
+      30% {left:1200px;}
+      40% {left: 2400px;}
+      50% {left: 2400px;}
+      60% {left: 1200px;}
+      70% {left: 1200px;}
+      80% {left: 0px;}
+      90% {left: 0px;}
+      100% {left:0px;}
+  }
+ 
+  @-webkit-keyframes slide_animation{
+      0% {left:0px;}
+      10% {left:0px;}
+      20% {left:1200px;}
+      30% {left:1200px;}
+      40% {left: 2400px;}
+      50% {left: 2400px;}
+      60% {left: 1200px;}
+      70% {left: 1200px;}
+      80% {left: 0px;}
+      90% {left: 0px;}
+      100% {left:0px;}
+  }
+ 
+  .slide-images{
+      width: 3600px;
+      height: 100px;
+      margin: 0 0 0 -2400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      animation-name: slide_animation;
+      -webkit-animation-duration: 16s;
+      animation-duration: 16s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+  }
+ 
+  .img-container{
+      height: 800px;
+      width: 1200px;
+      position: relative;
+      float: left;
+  }
+ .slide-images1{
+      width: 3600px;
+      height: 100px;
+      margin: 0 0 0 -2400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      animation-name: slide_animation;
+      -webkit-animation-duration: 20s;
+      animation-duration: 20s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+  }
